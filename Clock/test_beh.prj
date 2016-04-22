@@ -1,0 +1,6 @@
+verilog work "SevenSegmentDec.v"
+verilog work "SCounter.v"
+verilog work "clock.v"
+verilog work "SCounter_Main.v"
+verilog work "test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

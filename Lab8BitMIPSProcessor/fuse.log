@@ -1,0 +1,38 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/CPU_tb_isim_beh.exe -prj C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/CPU_tb_beh.prj work.CPU_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/Ram.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/ProgramCounter.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/PCAdder.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/Multiplexor8Bits.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/FlagsRegister.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/CPU.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/CPU_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 104000 KB
+Fuse CPU Usage: 514 ms
+Compiling module ProgramCounter
+Compiling module PCAdder
+Compiling module InstructionMemory
+Compiling module ControlUnit
+Compiling module Multiplexor8Bits
+Compiling module RegisterFile
+Compiling module ALU
+Compiling module Ram
+Compiling module FlagsRegister
+Compiling module CPU
+Compiling module CPU_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/Alex/Documents/Labs/Lab8BitMIPSProcessor/CPU_tb_isim_beh.exe
+Fuse Memory Usage: 107568 KB
+Fuse CPU Usage: 686 ms

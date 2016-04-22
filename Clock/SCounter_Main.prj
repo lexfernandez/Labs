@@ -1,0 +1,4 @@
+verilog work "SevenSegmentDec.v"
+verilog work "SCounter.v"
+verilog work "clock.v"
+verilog work "SCounter_Main.v"

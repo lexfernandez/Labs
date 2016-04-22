@@ -1,0 +1,12 @@
+MO ControlUnit NULL ControlUnit.v vlg71/_control_unit.bin 1459446796
+MO Jumps NULL Jumps.v vlg13/_jumps.bin 1459203473
+MO ProgramCounter NULL ProgramCounter.v vlg78/_program_counter.bin 1459446796
+MO CPU NULL CPU.v vlg70/_c_p_u.bin 1459446796
+MO Multiplexor8Bits NULL Multiplexor8Bits.v vlg6F/_multiplexor8_bits.bin 1459446796
+MO FlagsRegister NULL FlagsRegister.v vlg7A/_flags_register.bin 1459446796
+MO InstructionMemory NULL InstructionMemory.v vlg63/_instruction_memory.bin 1459446796
+MO Ram NULL Ram.v vlg54/_ram.bin 1459446796
+MO RegisterFile NULL RegisterFile.v vlg69/_register_file.bin 1459446796
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1459446796
+MO PCAdder NULL PCAdder.v vlg63/_p_c_adder.bin 1459446796
+MO MultiplexorJumps NULL MultiplexorJumps.v vlg18/_multiplexor_jumps.bin 1458883698

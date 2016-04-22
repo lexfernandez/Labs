@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab1/Gates.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab1/Gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Gates.ucf -p xa3s500e-ftg256-4 Gates.ngc Gates.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Gates.ucf -p xa3s500e-ftg256-4 Gates.ngc Gates.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o Gates_map.ncd Gates.ngd Gates.pcf 
+par -w -intstyle ise -ol high -t 1 Gates_map.ncd Gates.ncd Gates.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Gates.twx Gates.ncd -o Gates.twr Gates.pcf -ucf Gates.ucf 
+bitgen -intstyle ise -f Gates.ut Gates.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab1/Gates.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab1/Gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Gates.ucf -p xa3s500e-ftg256-4 Gates.ngc Gates.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o Gates_map.ncd Gates.ngd Gates.pcf 
+par -w -intstyle ise -ol high -t 1 Gates_map.ncd Gates.ncd Gates.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Gates.twx Gates.ncd -o Gates.twr Gates.pcf -ucf Gates.ucf 
+bitgen -intstyle ise -f Gates.ut Gates.ncd 

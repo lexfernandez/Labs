@@ -1,0 +1,188 @@
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab4/SyncRam_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRam.ucf -p xa3s500e-ftg256-4 SyncRam_Main.ngc SyncRam_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRam_Main_map.ncd SyncRam_Main.ngd SyncRam_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRam_Main_map.ncd SyncRam_Main.ncd SyncRam_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRam_Main.twx SyncRam_Main.ncd -o SyncRam_Main.twr SyncRam_Main.pcf -ucf SyncRam.ucf 
+bitgen -intstyle ise -f SyncRam_Main.ut SyncRam_Main.ncd 

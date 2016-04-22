@@ -1,0 +1,3 @@
+verilog work "SyncRam.v"
+verilog work "SevenSegmentDec.v"
+verilog work "SyncRam_Main.v"

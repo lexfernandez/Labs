@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SCounter.ucf -p xa3s500e-ftg256-4 SCounter_Main.ngc SCounter_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SCounter_Main_map.ncd SCounter_Main.ngd SCounter_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SCounter_Main_map.ncd SCounter_Main.ncd SCounter_Main.pcf 
+bitgen -intstyle ise -f SCounter_Main.ut SCounter_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SCounter.ucf -p xa3s500e-ftg256-4 SCounter_Main.ngc SCounter_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SCounter_Main_map.ncd SCounter_Main.ngd SCounter_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SCounter_Main_map.ncd SCounter_Main.ncd SCounter_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SCounter_Main.twx SCounter_Main.ncd -o SCounter_Main.twr SCounter_Main.pcf -ucf SCounter.ucf 
+bitgen -intstyle ise -f SCounter_Main.ut SCounter_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SCounter.ucf -p xa3s500e-ftg256-4 SCounter_Main.ngc SCounter_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SCounter_Main_map.ncd SCounter_Main.ngd SCounter_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SCounter_Main_map.ncd SCounter_Main.ncd SCounter_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SCounter_Main.twx SCounter_Main.ncd -o SCounter_Main.twr SCounter_Main.pcf -ucf SCounter.ucf 
+bitgen -intstyle ise -f SCounter_Main.ut SCounter_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SCounter.ucf -p xa3s500e-ftg256-4 SCounter_Main.ngc SCounter_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SCounter_Main_map.ncd SCounter_Main.ngd SCounter_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SCounter_Main_map.ncd SCounter_Main.ncd SCounter_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SCounter_Main.twx SCounter_Main.ncd -o SCounter_Main.twr SCounter_Main.pcf -ucf SCounter.ucf 
+bitgen -intstyle ise -f SCounter_Main.ut SCounter_Main.ncd 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SCounter.ucf -p xa3s500e-ftg256-4 SCounter_Main.ngc SCounter_Main.ngd  
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Counter/SCounter_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SCounter.ucf -p xa3s500e-ftg256-4 SCounter_Main.ngc SCounter_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SCounter_Main_map.ncd SCounter_Main.ngd SCounter_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SCounter_Main_map.ncd SCounter_Main.ncd SCounter_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SCounter_Main.twx SCounter_Main.ncd -o SCounter_Main.twr SCounter_Main.pcf -ucf SCounter.ucf 
+bitgen -intstyle ise -f SCounter_Main.ut SCounter_Main.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Alex\Documents\Labs\Counter\SCounter_Main.ncd
+OUTFILE=C:\Users\Alex\Documents\Labs\Counter\SCounter_Main.bit
+FAMILY=Automotive Spartan3E
+PART=xa3s500e-4ftg256
+WORKINGDIR=C:\Users\Alex\Documents\Labs\Counter
+LICENSE=WebPack
+USER_INFO=__0_0_0

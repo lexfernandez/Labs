@@ -1,0 +1,31 @@
+#mapeo de las senales 'we' y 'clk'
+NET "we" LOC="A10" | IOSTANDARD = LVCMOS33;
+NET "clk" CLOCK_DEDICATED_ROUTE=FALSE;
+NET "clk" LOC="E11" | IOSTANDARD = LVCMOS33;
+
+#mapeo de la senal 'address'
+NET "address[0]" LOC="E10" | IOSTANDARD = LVCMOS33;
+NET "address[1]" LOC="D10" | IOSTANDARD = LVCMOS33;
+NET "address[2]" LOC="E9" | IOSTANDARD = LVCMOS33;
+NET "address[3]" LOC="A9" | IOSTANDARD = LVCMOS33;
+
+#mapeo de la senal 'data_in'
+NET "data_in[0]" LOC="D9" | IOSTANDARD = LVCMOS33;
+NET "data_in[1]" LOC="E8" | IOSTANDARD = LVCMOS33;
+NET "data_in[2]" LOC="C8" | IOSTANDARD = LVCMOS33;
+NET "data_in[3]" LOC="D8" | IOSTANDARD = LVCMOS33;
+
+#mapeo de la senal 'data_out'
+NET "data_out[0]" LOC="F9" | IOSTANDARD = LVCMOS33;
+NET "data_out[1]" LOC="A7" | IOSTANDARD = LVCMOS33;
+NET "data_out[2]" LOC="D7" | IOSTANDARD = LVCMOS33;
+NET "data_out[3]" LOC="E7" | IOSTANDARD = LVCMOS33;
+
+#Mapeo de pines para senales de los 14 segmentos
+NET "segments[0]" LOC = "E3" | IOSTANDARD = LVCMOS33;
+NET "segments[1]" LOC = "E1" | IOSTANDARD = LVCMOS33;
+NET "segments[2]" LOC = "G5" | IOSTANDARD = LVCMOS33;
+NET "segments[3]" LOC = "D1" | IOSTANDARD = LVCMOS33;
+NET "segments[4]" LOC = "E4" | IOSTANDARD = LVCMOS33;
+NET "segments[5]" LOC = "C1" | IOSTANDARD = LVCMOS33;
+NET "segments[6]" LOC = "C2" | IOSTANDARD = LVCMOS33;

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Clock/clock.xst" -ofn "C:/Users/Alex/Documents/Labs/Clock/clock.syr" 

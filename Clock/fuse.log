@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Alex/Documents/Labs/Clock/test_isim_beh.exe -prj C:/Users/Alex/Documents/Labs/Clock/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Clock/SevenSegmentDec.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Clock/SCounter.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Clock/clock.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Clock/SCounter_Main.v" into library work
+Analyzing Verilog file "C:/Users/Alex/Documents/Labs/Clock/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 102976 KB
+Fuse CPU Usage: 1918 ms
+Compiling module Clock
+Compiling module SCounter
+Compiling module SevenSegmentDec
+Compiling module SCounter_Main
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/Alex/Documents/Labs/Clock/test_isim_beh.exe
+Fuse Memory Usage: 106544 KB
+Fuse CPU Usage: 2183 ms

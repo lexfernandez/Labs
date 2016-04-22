@@ -1,0 +1,28 @@
+Command line:
+   Multiplexor8Bits_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49466
+
+Mon Mar 28 18:53:50 2016
+
+
+ Elaboration Time: 0.218401 sec
+
+ Current Memory Usage: 695.755 Meg
+
+ Total Signals          : 16
+ Total Nets             : 38
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 126
+
+ Total Simulation Time: 0.234001 sec
+
+ Current Memory Usage: 695.755 Meg
+
+Mon Mar 28 18:54:02 2016
+

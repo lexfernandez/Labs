@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 14 17:06:56 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "resetclk" LOCATE = SITE "C13" LEVEL 1;
+COMP "segments<0>" LOCATE = SITE "E3" LEVEL 1;
+COMP "segments<1>" LOCATE = SITE "E1" LEVEL 1;
+COMP "segments<2>" LOCATE = SITE "G5" LEVEL 1;
+COMP "segments<3>" LOCATE = SITE "D1" LEVEL 1;
+COMP "segments<4>" LOCATE = SITE "E4" LEVEL 1;
+COMP "segments<5>" LOCATE = SITE "C1" LEVEL 1;
+COMP "segments<6>" LOCATE = SITE "C2" LEVEL 1;
+COMP "reset" LOCATE = SITE "D12" LEVEL 1;
+SCHEMATIC END;
+

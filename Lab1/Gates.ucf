@@ -1,0 +1,11 @@
+#input Pin mapping
+Net "a" LOC = "J11" | IOSTANDARD = LVCMOS33;
+Net "b" LOC = "J12" | IOSTANDARD = LVCMOS33;
+
+#output Pin Mapping
+Net "r[0]" LOC = "C11" | IOSTANDARD = LVCMOS33;
+Net "r[1]" LOC = "D11" | IOSTANDARD = LVCMOS33;
+Net "r[2]" LOC = "B11" | IOSTANDARD = LVCMOS33;
+Net "r[3]" LOC = "A12" | IOSTANDARD = LVCMOS33;
+Net "r[4]" LOC = "A13" | IOSTANDARD = LVCMOS33;
+Net "r[5]" LOC = "B13" | IOSTANDARD = LVCMOS33;

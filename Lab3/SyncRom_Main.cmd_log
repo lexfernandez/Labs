@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.syr" 
+xst -intstyle ise -ifn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.xst" -ofn "C:/Users/Alex/Documents/Labs/Lab3/SyncRom_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRom.ucf -p xa3s500e-ftg256-4 SyncRom_Main.ngc SyncRom_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRom_Main_map.ncd SyncRom_Main.ngd SyncRom_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRom_Main_map.ncd SyncRom_Main.ncd SyncRom_Main.pcf 
+bitgen -intstyle ise -f SyncRom_Main.ut SyncRom_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRom.ucf -p xa3s500e-ftg256-4 SyncRom_Main.ngc SyncRom_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRom_Main_map.ncd SyncRom_Main.ngd SyncRom_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRom_Main_map.ncd SyncRom_Main.ncd SyncRom_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRom_Main.twx SyncRom_Main.ncd -o SyncRom_Main.twr SyncRom_Main.pcf -ucf SyncRom.ucf 
+bitgen -intstyle ise -f SyncRom_Main.ut SyncRom_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SyncRom.ucf -p xa3s500e-ftg256-4 SyncRom_Main.ngc SyncRom_Main.ngd  
+map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o SyncRom_Main_map.ncd SyncRom_Main.ngd SyncRom_Main.pcf 
+par -w -intstyle ise -ol high -t 1 SyncRom_Main_map.ncd SyncRom_Main.ncd SyncRom_Main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SyncRom_Main.twx SyncRom_Main.ncd -o SyncRom_Main.twr SyncRom_Main.pcf -ucf SyncRom.ucf 
+bitgen -intstyle ise -f SyncRom_Main.ut SyncRom_Main.ncd 

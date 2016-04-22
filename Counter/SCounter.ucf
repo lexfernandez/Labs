@@ -1,0 +1,24 @@
+#Mapeo de pines para las senales de clk y reset
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk" LOC =  "C13" | IOSTANDARD = LVCMOS33;
+NET "reset" LOC = "D12" | IOSTANDARD = LVCMOS33;
+NET "control" LOC = "J11" | IOSTANDARD = LVCMOS33;
+
+#Mapeo de pines para se;ales de los 7 segmentos
+
+
+NET "segments[7]" LOC = "H6" | IOSTANDARD = LVCMOS33;
+NET "segments[8]" LOC = "K2" | IOSTANDARD = LVCMOS33;
+NET "segments[9]" LOC = "H3" | IOSTANDARD = LVCMOS33;
+NET "segments[10]" LOC = "K1" | IOSTANDARD = LVCMOS33;
+NET "segments[11]" LOC = "G4" | IOSTANDARD = LVCMOS33;
+NET "segments[12]" LOC = "J2" | IOSTANDARD = LVCMOS33;
+NET "segments[13]" LOC = "G3" | IOSTANDARD = LVCMOS33;
+
+NET "segments[0]" LOC = "E3" | IOSTANDARD = LVCMOS33;
+NET "segments[1]" LOC = "E1" | IOSTANDARD = LVCMOS33;
+NET "segments[2]" LOC = "G5" | IOSTANDARD = LVCMOS33;
+NET "segments[3]" LOC = "D1" | IOSTANDARD = LVCMOS33;
+NET "segments[4]" LOC = "E4" | IOSTANDARD = LVCMOS33;
+NET "segments[5]" LOC = "C1" | IOSTANDARD = LVCMOS33;
+NET "segments[6]" LOC = "C2" | IOSTANDARD = LVCMOS33;

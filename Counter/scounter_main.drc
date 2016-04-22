@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Oct 20 21:49:50 2015
+
+drc -z SCounter_Main.ncd SCounter_Main.pcf
+
+DRC detected 0 errors and 0 warnings.
